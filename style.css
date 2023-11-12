@@ -324,38 +324,12 @@ footer {
   }
 }
 
-/* Dispositivos móveis pequenos---------------------------------------------------------*/
 @media all and (max-width: 320px) and (orientation: landscape) {
-  .menu-hamburguer {
-    display: block;
-  }
-
-  .empresa {
-    width: 25%;
-  }
-
-  .lista-do-menu {
-    display: none;
-  }
-
-  .foto {
-    width: 35%;
-    margin: auto;
-  }
-
-  .profissionais,
-  .galeria,
-  .lista-de-servicos {
-    margin-bottom: 1rem;
-  }
   .carousel {
-    width: 40%;
+    width: 30%;
+    border: 2px solid yellow;
     margin: 30px auto;
   }
-}
-  
-
-  
 }
 
 /* Dispositivos móveis médios ---------------------------------------------------------*/
@@ -388,7 +362,6 @@ footer {
     margin: 30px auto;
   }
 }
-
 
 @media all and (min-width: 321px) and (max-width: 768px) and (orientation: landscape) {
   .container {
@@ -438,8 +411,8 @@ footer {
   }
 
   .carousel {
-    margin: 10px auto;
-    width: 45%;
+    margin: 20px auto;
+    width: 70vh;
   }
 }
 
