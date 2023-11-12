@@ -317,6 +317,10 @@ footer {
     margin: auto;
   }
 
+  .joyce {
+    margin-top: 20px;
+  }
+
   .profissionais,
   .galeria,
   .lista-de-servicos {
@@ -325,6 +329,7 @@ footer {
 }
 
 @media all and (max-width: 320px) and (orientation: landscape) {
+  
   .carousel {
     width: 30%;
     border: 2px solid yellow;
@@ -344,6 +349,10 @@ footer {
 
   .lista-do-menu {
     display: none;
+  }
+
+  .joyce {
+    margin-top: 20px;
   }
 
   .foto {
